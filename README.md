@@ -1,2 +1,2 @@
 # TrabalhoPadrao
-Trabalho Padrão
+Trabalho Padrão em formato simples para o PPGEQ
