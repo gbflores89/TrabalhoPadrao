@@ -5,11 +5,12 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \usepackage{ae}
-\usepackage[latin1]{inputenc}
+% \usepackage[latin1]{inputenc}
 \usepackage[brazil]{babel}
 \usepackage[brazil]{hyperref}
- \usepackage[alf]{abntex2cite}
- 
+\usepackage[alf]{abntex2cite}
+\usepackage[utf8]{inputenc}
+  
 \usepackage{graphicx} 
 \usepackage{url} 
 \usepackage{lastpage}
@@ -21,8 +22,8 @@
 \usepackage{pgfplots}
 \usepackage{xifthen}
 \usepackage{threeparttable}
-\usepackage[version=3]{mhchem} % Formulas químicas automaticas, comando \ce{}
-\usepackage{chemfig} % Formulas químicas automaticas, comando \ce{}
+\usepackage[version=3]{mhchem} % Formulas quÃ­micas automaticas, comando \ce{}
+\usepackage{chemfig} % Formulas quÃ­micas automaticas, comando \ce{}
 \usepackage{longtable}
 \usepackage{pdflscape}
 \usepackage{adjustbox}
@@ -52,14 +53,14 @@
 
 % o novo maketitlepage
 \renewcommand{\maketitle}{
-% Primeira página de título  
+% Primeira pÃ¡gina de tÃ­tulo  
 \pagestyle{empty}
 \begin{center}
 \textsc \large
 Universidade Federal do Rio Grande do Sul \\
 Escola de Engenharia \\
-Departamento de Engenharia Química \\
-Programa de Pós--Graduação em Engenharia Química
+Departamento de Engenharia QuÃ­mica \\
+Programa de PÃ³s--GraduaÃ§Ã£o em Engenharia QuÃ­mica
 \vfill
 \Large \textsc \theclass \\ Prof:~\theclassProffessor
 \vfill \vfill
@@ -94,18 +95,18 @@ Programa de Pós--Graduação em Engenharia Química
 % \authoriii{Aluno4}
 
 % Capa
-\maketitle 
+\maketitle  
 
-% Incluir seções do trabalho
+% Incluir seÃ§Ãµes do trabalho
 \include{Trab1}  
 
  
  \newdimen\bibindent
-\setlength\bibindent{1.5em} % identaçao das referencias
+\setlength\bibindent{1.5em} % identaÃ§ao das referencias
 { % Um lineskip menor neste contexto de referencias
 \rhead{}
 \baselineskip 4.3mm 
-% Edite o arquivo bib.bib com as suas próprias referências 
+% Edite o arquivo bib.bib com as suas prÃ³prias referÃªncias 
 \bibliography{bib}
 } 
  
